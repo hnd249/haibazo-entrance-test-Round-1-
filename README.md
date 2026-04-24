@@ -1,16 +1,33 @@
-# React + Vite
+# HAIBAZO Entrance Test - Intern Software Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎮 Về dự án (About The Project)
+Đây là bài test đầu vào cho vị trí Intern Software Engineer tại HAIBAZO JSC. Dự án là một mini web game được xây dựng bằng **React (Vite)**. Nhiệm vụ của người chơi là click vào các vòng tròn theo đúng thứ tự từ nhỏ đến lớn. 
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+- **Play here:** [DÁN_LINK_VERCEL_CỦA_BẠN_VÀO_ĐÂY]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tính năng chính (Key Features)
+- **Custom Points:** Người chơi tự do nhập số lượng vòng tròn mong muốn.
+- **Auto Play Mode:** Tự động giải game (click mỗi 1 giây/lần) để test.
+- **Smart Overlapping (z-index):** Xử lý thuật toán hiển thị khi các vòng tròn đè lên nhau (Stress test với 2000 điểm), đảm bảo các số nhỏ luôn nổi lên trên cùng để người chơi có thể click được.
+- **Fading Effect:** Hiệu ứng vòng tròn đếm ngược 3 giây và mờ dần sau khi click đúng.
+- **Real-time Timer:** Đồng hồ bấm giờ chuẩn xác, tự động dừng khi trò chơi kết thúc (Win/Game Over).
 
-## React Compiler
+## 🛠️ Công nghệ sử dụng (Tech Stack)
+- React.js (Vite)
+- CSS3 thuần (Flexbox, Positioning)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Hướng dẫn chạy dự án (Run Locally)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone repository này về máy:
+   ```bash
+   git clone https://github.com/hnd249/haibazo-entrance-test-Round-1-.git
+   ```
+2. Cài đặt các gói thư viện (Dependencies):
+  ```bash
+  npm install
+  ```
+3. Khởi động server (Development):
+  ```bash
+  npm run dev
+  ```
