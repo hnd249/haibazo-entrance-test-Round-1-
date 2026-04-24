@@ -1,0 +1,110 @@
+.game-container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  padding-top: 60px;
+  width: 600px;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+}
+.info-row label{
+  width: 90px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.info-row input {
+  width: 160px;
+  padding: 4px 8px;
+  font-size: 16px;
+  border: 1px solid #999;
+}
+
+.info-row span {
+  font-size: 18px;
+}
+
+.control {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.controls button {
+  padding: 5px 20px;
+  font-size:  14px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #777;
+  border-radius: 2px;
+}
+
+.board {
+  border: 2px solid #000;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.circle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #cc0000;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  user-select: none;
+}
+
+.circle.fading {
+  background-color: #e76f51;
+  border-color: #e76f51;
+  color: white;
+  pointer-events: none;
+}
+
+.circle.wrong {
+  background-color: red;
+  color: white;
+}
+
+.circle-id {
+  font-size: 14px;
+}
+
+.circle-time {
+  font-size: 10px;
+  font-weight: normal;
+  margin-top: -2px;
+}
+
+.next-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
