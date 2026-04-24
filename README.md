@@ -4,7 +4,7 @@
 Đây là bài test đầu vào cho vị trí Intern Software Engineer tại HAIBAZO JSC. Dự án là một mini web game được xây dựng bằng **React (Vite)**. Nhiệm vụ của người chơi là click vào các vòng tròn theo đúng thứ tự từ nhỏ đến lớn. 
 
 ## 🔗 Live Demo
-- **Play here:** [DÁN_LINK_VERCEL_CỦA_BẠN_VÀO_ĐÂY]
+- **Play here:** https://haibazo-entrance-test-round-1.vercel.app/
 
 ## 🚀 Tính năng chính (Key Features)
 - **Custom Points:** Người chơi tự do nhập số lượng vòng tròn mong muốn.
